@@ -3,15 +3,9 @@ package com.michael_conrad.learn_spring_framework;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-record Person(String name, int age, Address address) {
-}
-
-record Address(String street, String city, String state) {
-}
 
 @Configuration
 public class HelloWorldConfiguration {
-
     @Bean
     public String name() {
         return "Mario";
@@ -45,6 +39,12 @@ public class HelloWorldConfiguration {
     @Bean(name = "address3")
     public Address address3() {
         return new Address("456 Main St", "Springfield", "IL");
+    }
+
+    public record Person(String name, int age, Address address) {
+    }
+
+    public record Address(String street, String city, String state) {
     }
 
 }
