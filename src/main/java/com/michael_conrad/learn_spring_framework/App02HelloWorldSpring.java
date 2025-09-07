@@ -9,6 +9,6 @@ public class App02HelloWorldSpring {
         var ctx = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
 
         // Configure Spring
-
+        System.out.println(ctx.getBean("name"));
     }
 }
