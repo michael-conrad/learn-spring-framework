@@ -10,5 +10,8 @@ public class App02HelloWorldSpring {
 
         // Configure Spring
         System.out.println(ctx.getBean("name"));
+        System.out.println(ctx.getBean("age"));
+        System.out.println(ctx.getBean("person"));
+        System.out.println(ctx.getBean("address"));
     }
 }
