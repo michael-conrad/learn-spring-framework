@@ -12,6 +12,9 @@ public class App02HelloWorldSpring {
         System.out.println(ctx.getBean("name"));
         System.out.println(ctx.getBean("age"));
         System.out.println(ctx.getBean("person"));
-        System.out.println(ctx.getBean("address"));
+        Object address2 = ctx.getBean("address2");
+        System.out.println(address2);
+        Address address = ctx.getBean(Address.class);
+        System.out.println(address);
     }
 }
