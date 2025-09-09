@@ -1,5 +1,7 @@
 package com.michael_conrad.learn_spring_framework;
 
+import com.michael_conrad.learn_spring_framework.HelloWorldConfiguration.Address;
+import com.michael_conrad.learn_spring_framework.HelloWorldConfiguration.Person;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App02HelloWorldSpring {
@@ -14,9 +16,11 @@ public class App02HelloWorldSpring {
         System.out.println(ctx.getBean("person"));
         System.out.println(ctx.getBean("person2MethodCall"));
         System.out.println(ctx.getBean("person3Parameters"));
-        Object address2 = ctx.getBean("address2");
-        System.out.println(address2);
-//        Address address = ctx.getBean(Address.class);
-//        System.out.println(address);
+        System.out.println(ctx.getBean("address2"));
+        System.out.println(ctx.getBean(Address.class));
+        System.out.println(ctx.getBean(Person.class));
+        System.out.println(ctx.getBean("person5Qualifier"));
+
+//        Arrays.stream(ctx.getBeanDefinitionNames()).forEach(System.out::println);
     }
 }
