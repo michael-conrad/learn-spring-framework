@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.michael-conrad</groupId>
-	<artifactId>learn-spring-framework</artifactId>
+	<artifactId>learn-spring-framework-01</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>learn-spring-framework</name>
+	<name>learn-spring-framework-01</name>
 	<description>Master Spring Boot 3 &amp; Spring Framework 6 with Java</description>
 	<url/>
 	<licenses>
