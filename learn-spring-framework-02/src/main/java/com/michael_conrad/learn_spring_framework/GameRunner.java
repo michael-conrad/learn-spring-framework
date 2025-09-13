@@ -1,4 +1,6 @@
-package com.michael_conrad.learn_spring_framework.game;
+package com.michael_conrad.learn_spring_framework;
+
+import com.michael_conrad.learn_spring_framework.game.GamingConsole;
 
 public class GameRunner {
     private final GamingConsole game;
