@@ -1,6 +1,5 @@
-package com.michael_conrad.learn_spring_framework;
+package com.michael_conrad.learn_spring_framework.game;
 
-import com.michael_conrad.learn_spring_framework.game.GameRunner;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
