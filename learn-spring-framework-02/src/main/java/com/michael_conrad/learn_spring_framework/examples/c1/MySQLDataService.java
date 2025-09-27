@@ -1,4 +1,4 @@
-package com.michael_conrad.learn_spring_framework.examples.a2;
+package com.michael_conrad.learn_spring_framework.examples.c1;
 
 import org.springframework.stereotype.Component;
 
