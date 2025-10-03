@@ -32,7 +32,6 @@ class SomeClass {
 
 @Component
 class SomeDependency {
-
     public void getReady() {
         System.out.println("SomeDependency getReady");
     }
