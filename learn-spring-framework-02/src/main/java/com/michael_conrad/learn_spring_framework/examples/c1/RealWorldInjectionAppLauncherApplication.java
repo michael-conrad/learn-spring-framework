@@ -9,14 +9,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 class NormalClass {
-
 }
-
 
 @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 @Component
 class PrototypeClass {
-
 }
 
 @Configuration
